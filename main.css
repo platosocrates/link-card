@@ -1,8 +1,65 @@
 html {
     box-sizing: border-box;
+    font-family: Georgia, Dosis, serif;
   }
   
   *, *::before, *::after {
     box-sizing: inherit;
   }
-  
+ 
+* {
+  list-style: none;
+  font-style: none;
+  text-decoration: none;
+}
+#card {
+  width:320px;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+}
+  .link-card {
+    display: block;
+    padding: 1.5rem;
+    color: #512200;
+  }
+    #top {
+
+    }
+      h2 {
+        font-family: Dosis;
+        font-size: 1.5rem;
+
+      }
+
+      p {
+        font-size: 1.125rem;
+      }
+
+    #middle {
+      border-top: 2px solid #9a816d;
+      border-bottom: 2px solid #9a816d;
+      overflow: auto;
+    }
+
+      ul {
+        display: inline-block;
+        padding: 0;
+        width: 50%;
+        float: left;
+        font-size: .875rem;
+      }
+
+      #italics {
+        font-style: italic;
+      }
+
+    #bottom {
+      text-align: center;
+    }
+
+      .btn {
+        background-color: #785439;
+        color: #f0eee8;
+        margin: 0 auto;
+        font-size: 1rem;
+      }
